@@ -1,0 +1,192 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ÇANKIRI.FK18 | İstatistikler</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#071426;color:white}
+header{background:#0c2342;padding:22px 8%;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:18px;border-bottom:3px solid #1685ff}
+.logo{font-size:27px;font-weight:bold}
+.logo span{color:#1685ff}
+nav{display:flex;gap:22px;flex-wrap:wrap}
+nav a{color:white;text-decoration:none;font-weight:bold}
+nav a:hover{color:#1685ff}
+.container{width:92%;max-width:1050px;margin:40px auto}
+h1{text-align:center;font-size:34px;margin-bottom:10px}
+.subtitle{text-align:center;color:#8dbfff;margin-bottom:30px}
+.section-title{font-size:23px;margin:35px 0 18px;border-left:5px solid #1685ff;padding-left:12px}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px}
+.stat-card{background:#102b4d;border:1px solid #21466f;border-radius:12px;padding:25px;text-align:center}
+.stat-card strong{display:block;font-size:38px;color:#65b2ff;margin-bottom:8px}
+.stat-card span{color:#c8ddf5}
+.panel{background:#102b4d;border:1px solid #21466f;border-radius:12px;padding:20px;margin-bottom:18px}
+.panel h3{color:#65b2ff;margin-bottom:15px}
+.player{display:flex;justify-content:space-between;align-items:center;padding:13px 5px;border-bottom:1px solid #284565;gap:10px}
+.player:last-child{border-bottom:0}
+.number{background:#0878e8;padding:7px 12px;border-radius:7px;font-weight:bold}
+.report{background:#102b4d;border:1px solid #21466f;border-radius:12px;margin-bottom:18px;overflow:hidden}
+.report summary{padding:20px;cursor:pointer;font-weight:bold;list-style:none}
+.report summary::-webkit-details-marker{display:none}
+.report summary:after{content:"+";float:right;color:#65b2ff;font-size:22px}
+.report[open] summary:after{content:"−"}
+.report-content{padding:0 20px 20px;color:#d5e7ff;line-height:1.9}
+.report-content h4{color:#65b2ff;margin-top:12px}
+footer{background:#0c2342;text-align:center;padding:25px;margin-top:50px;color:#9db9d8}
+@media(max-width:600px){header{justify-content:center}h1{font-size:27px}.player{font-size:14px}}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">ÇANKIRI<span>.FK18</span></div>
+<nav>
+<a href="index.html">Ana Sayfa</a>
+<a href="fikstur.html">Fikstür</a>
+<a href="istatistikler.html">İstatistikler</a>
+</nav>
+</header>
+
+<main class="container">
+
+<h1>TAKIM İSTATİSTİKLERİ</h1>
+<p class="subtitle">ÇANKIRI F.K. | 2026/2027 SEZONU</p>
+
+<div class="stats">
+<div class="stat-card">
+<strong>4</strong>
+<span>Oynanan Maç</span>
+</div>
+<div class="stat-card">
+<strong>12</strong>
+<span>Atılan Gol</span>
+</div>
+<div class="stat-card">
+<strong>4</strong>
+<span>Girilen Asist</span>
+</div>
+<div class="stat-card">
+<strong>4</strong>
+<span>Galibiyet</span>
+</div>
+</div>
+
+<h2 class="section-title">Gol Krallığı</h2>
+<div class="panel">
+<h3>GOL</h3>
+
+<div class="player"><span>Oğuzhan Bozkurt</span><span class="number">3 Gol</span></div>
+<div class="player"><span>Mustafa Ethem Erboğa</span><span class="number">3 Gol</span></div>
+<div class="player"><span>Batuhan Ayvaz</span><span class="number">2 Gol</span></div>
+<div class="player"><span>Yiğit Gümüş</span><span class="number">2 Gol</span></div>
+<div class="player"><span>Hakan Olkan</span><span class="number">1 Gol</span></div>
+<div class="player"><span>Mehmet Mert Özkaptan</span><span class="number">1 Gol</span></div>
+<div class="player"><span>Suphi Gül</span><span class="number">1 Gol</span></div>
+</div>
+
+<h2 class="section-title">Asist Krallığı</h2>
+<div class="panel">
+<h3>ASİST</h3>
+
+<div class="player"><span>Batuhan Ayvaz</span><span class="number">1 Asist</span></div>
+<div class="player"><span>Oğuzhan Bozkurt</span><span class="number">1 Asist</span></div>
+<div class="player"><span>Mehmet Erdem Uğurlu</span><span class="number">1 Asist</span></div>
+<div class="player"><span>Mehmet Mert Özkaptan</span><span class="number">1 Asist</span></div>
+</div>
+
+<h2 class="section-title">Maç Raporları</h2>
+
+<details class="report">
+<summary>8 Kasım 2026 | Çankırı F.K. 5-1 Safranboluspor</summary>
+<div class="report-content">
+<h4>⚽ Goller</h4>
+<p>18' Oğuzhan Bozkurt (P) — 1-0</p>
+<p>71' Hakan Olkan (P) — 2-1</p>
+<p>77' Mehmet Mert Özkaptan — 3-1</p>
+<p>90' Mehmet Mert Özkaptan (Asist: Yiğit Gümüş) — 4-1</p>
+<p>90+4' Suphi Gül (P) — 5-1</p>
+<h4>🟨 Sarı Kartlar</h4>
+<p>41' Batuhan Ayvaz</p>
+<p>60' Hakan Olkan</p>
+<p>60' Mehmet Erdem Uğurlu</p>
+<p>76' Eren Güler</p>
+<h4>🔄 Oyuncu Değişiklikleri</h4>
+<p>46' Mehmet Erdem Uğurlu ↔ Hamza Baltacı</p>
+<p>46' Çağatay Polatdemir ↔ Batuhan Ayvaz</p>
+<p>69' Eren Güler ↔ Emre Aydın</p>
+<p>69' Mehmet Mert Özkaptan ↔ Egemen Kazancı</p>
+<p>77' Mehmet Bağlı ↔ Mehmet Erdem Uğurlu</p>
+</div>
+</details>
+
+<details class="report">
+<summary>1 Kasım 2026 | Hacılar Bld. 1-2 Çankırı F.K.</summary>
+<div class="report-content">
+<h4>⚽ Çankırı F.K. Golleri</h4>
+<p>8' Mustafa Ethem Erboğa (Asist: Batuhan Ayvaz)</p>
+<p>52' Batuhan Ayvaz (Asist: Oğuzhan Bozkurt)</p>
+<h4>🟨 Sarı Kartlar</h4>
+<p>35' Mustafa Bayhan</p>
+<p>51' Hakan Olkan</p>
+<p>65' Mustafa Ethem Erboğa</p>
+<h4>🟥 Kırmızı Kart</h4>
+<p>65' Mustafa Bayhan (İkinci sarı kart)</p>
+<h4>🔄 Oyuncu Değişiklikleri</h4>
+<p>23' Çağatay Polatdemir ↔ Mustafa Çay</p>
+<p>70' Mehmet Erdem Uğurlu ↔ Hamza Baltacı</p>
+<p>70' Utku Karakaya ↔ Egemen Kazancı</p>
+<p>81' Oğuzhan Bozkurt ↔ Suphi Gül</p>
+<p>81' Berkay Emre Sarısu ↔ Mustafa Ethem Erboğa</p>
+</div>
+</details>
+
+<details class="report">
+<summary>24 Ekim 2026 | Çankırı F.K. 3-0 Aladağspor</summary>
+<div class="report-content">
+<h4>⚽ Goller</h4>
+<p>28' Mustafa Ethem Erboğa (P) — 1-0</p>
+<p>89' Oğuzhan Bozkurt (Asist: Mehmet Erdem Uğurlu) — 2-0</p>
+<p>90+1' Yiğit Gümüş — 3-0</p>
+<h4>🟨 Sarı Kart</h4>
+<p>90+2' Utku Karakaya</p>
+<h4>🔄 Oyuncu Değişiklikleri</h4>
+<p>46' Hakan Olkan ↔ Emre Aydın</p>
+<p>60' Mehmet Erdem Uğurlu ↔ Egemen Kazancı</p>
+<p>60' Utku Karakaya ↔ Hamza Baltacı</p>
+<p>74' Mustafa Ethem Erboğa ↔ Oğuzhan Bozkurt</p>
+<p>90' Mehmet Bağlı ↔ Sergen İlhan</p>
+</div>
+</details>
+
+<details class="report">
+<summary>18 Ekim 2026 | Mimarsinanspor 1-2 Çankırı F.K.</summary>
+<div class="report-content">
+<h4>⚽ Çankırı F.K. Golleri</h4>
+<p>12' Mustafa Ethem Erboğa (P)</p>
+<p>52' Batuhan Ayvaz</p>
+<h4>🟨 Sarı Kartlar</h4>
+<p>66' Çağatay Polatdemir</p>
+<p>67' Mustafa Bayhan</p>
+<h4>🟥 Kırmızı Kart</h4>
+<p>82' Çağatay Polatdemir (İkinci sarı kart)</p>
+<h4>🔄 Oyuncu Değişiklikleri</h4>
+<p>46' Çağatay Polatdemir ↔ Utku Karakaya</p>
+<p>46' Hakan Olkan ↔ Mehmet Bağlı</p>
+<p>74' Emre Aydın ↔ Sergen İlhan</p>
+<p>90' Oğuzhan Bozkurt ↔ Batuhan Ayvaz</p>
+<p>90' Berkay Emre Sarısu ↔ Mustafa Ethem Erboğa</p>
+</div>
+</details>
+
+</main>
+
+<footer>
+© 2026 ÇANKIRI.FK18 | Mavi Beyaz Şimşekler
+</footer>
+
+</body>
+</html>
