@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ÇANKIRI.FK18 | Fikstür</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #071426;
+    color: white;
+}
+
+header {
+    background: #0c2342;
+    padding: 22px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 18px;
+    border-bottom: 3px solid #1685ff;
+}
+
+.logo {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.logo span {
+    color: #1685ff;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1685ff;
+}
+
+.container {
+    width: 92%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 34px;
+    margin-bottom: 12px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #8dbfff;
+    margin-bottom: 35px;
+}
+
+.season {
+    background: #0c2342;
+    border: 1px solid #21466f;
+    border-radius: 10px;
+    padding: 16px;
+    text-align: center;
+    margin-bottom: 25px;
+    line-height: 1.8;
+}
+
+/* MAÇ SATIRLARI */
+
+.match {
+    background: #102b4d;
+    border: 1px solid #21466f;
+    border-radius: 10px;
+    padding: 17px 20px;
+    margin-bottom: 12px;
+
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 120px minmax(0, 1fr);
+    align-items: center;
+    gap: 10px;
+}
+
+.match-info {
+    min-width: 0;
+    text-align: left;
+}
+
+.date {
+    color: #8dbfff;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.teams {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-wrap: anywhere;
+}
+
+.score {
+    font-size: 22px;
+    font-weight: bold;
+    color: #65b2ff;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.status {
+    justify-self: end;
+    text-align: center;
+    font-size: 12px;
+    padding: 7px 11px;
+    border-radius: 20px;
+    background: #174d36;
+    color: #7dffb0;
+    white-space: nowrap;
+}
+
+.upcoming {
+    background: #3e3216;
+    color: #ffd36a;
+}
+
+footer {
+    background: #0c2342;
+    text-align: center;
+    padding: 25px;
+    margin-top: 50px;
+    color: #9db9d8;
+}
+
+/* TELEFON EKRANI */
+
+@media(max-width: 600px) {
+    header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    .match {
+        grid-template-columns: minmax(0, 1fr) 75px minmax(0, 1fr);
+        padding: 14px 10px;
+        gap: 5px;
+    }
+
+    .teams {
+        font-size: 12px;
+    }
+
+    .date {
+        font-size: 11px;
+    }
+
+    .score {
+        font-size: 17px;
+    }
+
+    .status {
+        font-size: 9px;
+        padding: 6px 4px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">ÇANKIRI<span>.FK18</span></div>
+
+    <nav>
+        <a href="index.html">Ana Sayfa</a>
+        <a href="fikstur.html">Fikstür</a>
+        <a href="istatistikler.html">İstatistikler</a>
+    </nav>
+</header>
+
+<main class="container">
+
+<h1>MAÇ FİKSTÜRÜ</h1>
+<p class="subtitle">ÇANKIRI F.K. | 2026/2027 SEZONU</p>
+
+<div class="season">
+    <strong>Türkiye - Profesyonelliğe Geçiş Ligi</strong><br>
+    7. Grup | 2026/2027
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">18 Ekim 2026 Pazar</div>
+        <div class="teams">Mimarsinanspor🟥</div>
+        <div class="teams">Çankırı F.K.🟥</div>
+    </div>
+    <div class="score">1 - 2</div>
+    <span class="status">MAÇ SONUCU</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">24 Ekim 2026 Cumartesi</div>
+        <div class="teams">Çankırı F.K.</div>
+        <div class="teams">Aladağspor🟥</div>
+    </div>
+    <div class="score">3 - 0</div>
+    <span class="status">MAÇ SONUCU</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">1 Kasım 2026 Pazar</div>
+        <div class="teams">Hacılar Bld.</div>
+        <div class="teams">Çankırı F.K.🟥</div>
+    </div>
+    <div class="score">1 - 2</div>
+    <span class="status">MAÇ SONUCU</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">8 Kasım 2026 Pazar</div>
+        <div class="teams">Çankırı F.K.</div>
+        <div class="teams">Safranboluspor</div>
+    </div>
+    <div class="score">5 - 1</div>
+    <span class="status">MAÇ SONUCU</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">12 Kasım 2026 Perşembe</div>
+        <div class="teams">Cide Bld.</div>
+        <div class="teams">Çankırı F.K.</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">15 Kasım 2026 Pazar</div>
+        <div class="teams">Çankırı F.K.</div>
+        <div class="teams">Eskişehir Demir</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">22 Kasım 2026 Pazar</div>
+        <div class="teams">K. Kazan Bld.</div>
+        <div class="teams">Çankırı F.K.</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">29 Kasım 2026 Pazar</div>
+        <div class="teams">Arıt Kayadibi</div>
+        <div class="teams">Çankırı F.K.</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">2 Aralık 2026 Çarşamba</div>
+        <div class="teams">Çankırı F.K.</div>
+        <div class="teams">Ankara T.K.İ</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">6 Aralık 2026 Pazar</div>
+        <div class="teams">Keçiören Bld. Bağlum</div>
+        <div class="teams">Çankırı F.K.</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">13 Aralık 2026 Pazar</div>
+        <div class="teams">Çankırı F.K.</div>
+        <div class="teams">CDM Başarı 2025</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">20 Aralık 2026 Pazar</div>
+        <div class="teams">Sinopspor</div>
+        <div class="teams">Çankırı F.K.</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+<div class="match">
+    <div class="match-info">
+        <div class="date">27 Aralık 2026 Pazar</div>
+        <div class="teams">Çankırı F.K.</div>
+        <div class="teams">Polatlı 1926</div>
+    </div>
+    <div class="score">13:00</div>
+    <span class="status upcoming">YAKLAŞAN MAÇ</span>
+</div>
+
+</main>
+
+<footer>
+    © 2026 ÇANKIRI.FK18 | Mavi Beyaz Şimşekler
+</footer>
+
+</body>
+</html>
