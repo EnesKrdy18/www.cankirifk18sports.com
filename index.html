@@ -2,166 +2,31 @@
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ÇANKIRI.FK18 | Resmî Taraftar Sitesi</title>
-
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    background: #063b78;
+    padding: 18px;
+}
 
-        body {
-            font-family: Arial, sans-serif;
-            background: #071426;
-            color: white;
-        }
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
 
-        header {
-            background: #0c2342;
-            padding: 22px 8%;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 18px;
-            border-bottom: 3px solid #1685ff;
-        }
-
-        .logo {
-            font-size: 27px;
-            font-weight: bold;
-            color: white;
-        }
-
-        .logo span {
-            color: #1685ff;
-        }
-
-        nav {
-            display: flex;
-            gap: 22px;
-            flex-wrap: wrap;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        nav a:hover {
-            color: #1685ff;
-        }
-
-        .hero {
-            text-align: center;
-            padding: 85px 20px;
-            background: linear-gradient(135deg, #0c2342, #0755a5);
-        }
-
-        .hero h1 {
-            font-size: 42px;
-            margin-bottom: 15px;
-        }
-
-        .hero h1 span {
-            color: #55aaff;
-        }
-
-        .hero p {
-            color: #d5e7ff;
-            font-size: 17px;
-        }
-
-        .container {
-            width: 90%;
-            max-width: 1100px;
-            margin: 40px auto;
-        }
-
-        .section-title {
-            font-size: 25px;
-            margin-bottom: 22px;
-            border-left: 5px solid #1685ff;
-            padding-left: 12px;
-        }
-
-        .match {
-            background: #102b4d;
-            border: 1px solid #21466f;
-            border-radius: 12px;
-            padding: 25px;
-            text-align: center;
-            margin-bottom: 25px;
-        }
-
-        .match small {
-            color: #8dbfff;
-        }
-
-        .score {
-            font-size: 38px;
-            font-weight: bold;
-            margin: 15px 0;
-        }
-
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            gap: 20px;
-        }
-
-        .card {
-            background: #102b4d;
-            border: 1px solid #21466f;
-            border-radius: 12px;
-            padding: 25px;
-            text-align: center;
-        }
-
-        .card h3 {
-            color: #65b2ff;
-            margin-bottom: 12px;
-        }
-
-        .card p {
-            color: #d5e7ff;
-            margin-bottom: 18px;
-        }
-
-        .card a {
-            display: inline-block;
-            background: #0878e8;
-            color: white;
-            padding: 11px 20px;
-            border-radius: 7px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        .card a:hover {
-            background: #005bb8;
-        }
-
-        footer {
-            background: #0c2342;
-            text-align: center;
-            padding: 25px;
-            margin-top: 60px;
-            color: #9db9d8;
-        }
-
-        @media (max-width: 600px) {
-            header {
-                justify-content: center;
-                text-align: center;
-            }
-
-            .hero h1 {
-                font-size: 30px;
+.menu a:hover {
+    background: white;
+    color: #063b78;
+}
+</style>
             }
         }
     </style>
@@ -209,7 +74,11 @@
                 <p>Gol krallığı, asist krallığı ve maç raporları.</p>
                 <a href="istatistikler.html">İstatistikleri Gör</a>
             </div>
-
+<div class="card">
+                <h3>Maç Raporları</h3>
+                <p>Maç raporları.</p>
+                <a href="maçraporları.html">Maç Raporları</a>
+            </div>
         </div>
 
     </main>
